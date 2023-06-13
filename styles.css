@@ -1,1 +1,54 @@
-h1 {color: red; font-size: 2rem;  }
+body {background-color: #F9DADB ;}
+
+
+
+.topbar-container { width: 80%; margin: 0 auto}
+
+.logo{ float: left; 
+       width:3rem 
+      }
+
+nav {float: right; }
+
+nav > ul > li > a {text-decoration: none; 
+                   color: #F9DADB;
+                    -webkit-text-stroke: 0.5px  #ED625B}
+nav > ul > li {list-style: none ; 
+                font-size: 0.7rem; 
+                font-family: Chonburi&family, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+                width: 1rem ; 
+                text-align: center; 
+                
+              }
+
+nav > ul > li > a:hover {color: #ED625B; 
+                         -webkit-text-stroke: 1px  #ED625B
+                        }
+
+nav > ul {display: flex; 
+        flex-direction: row;
+        justify-content: flex-end;
+        gap:3rem 
+        }
+
+#hero {margin: 0 auto; 
+        text-align: center;
+        width: 400px ; 
+         
+         padding-top:4rem; }
+
+h1 {color:#ED625B; 
+       font-family: Asset; 
+       font-size: 3rem;
+       
+        }
+
+#about-me { 
+    width: 80%;
+    height: 200px; 
+    margin: 0 auto; 
+    border: 1px dashed #ED625B 
+    }
+
+#about-me h2 {color:#ED625B; float: right}
+#about-me p {color:#ED625B;  }
