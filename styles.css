@@ -1,23 +1,33 @@
-body {background-color: #F9DADB ;}
+body {
+        background-color: #F9DADB ;
+}
 
 
 
-.topbar-container { width: 80%; margin: 0 auto}
+.topbar-container { 
+        width: 80vw; 
+        margin: 0 auto; 
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
 
-.logo{ float: left; 
-       width:3rem 
+}
+
+.logo{ 
+       width:15vw
       }
 
-nav {float: right; }
+
 
 nav > ul > li > a {text-decoration: none; 
                    color: #F9DADB;
-                    -webkit-text-stroke: 0.5px  #ED625B}
+                    -webkit-text-stroke: 1.1px  #ED625B}
 nav > ul > li {list-style: none ; 
-                font-size: 0.7rem; 
+                font-size:  1.2rem; 
                 font-family: 'Chonburi&family', 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif; 
-                width: 1rem ; 
+                width: 5rem ; 
                 text-align: center; 
+                
                 
               }
 
@@ -30,6 +40,12 @@ nav > ul {display: flex;
         justify-content: flex-end;
         gap:3rem 
         }
+
+
+#all-content-wrapper{
+        
+        display: flex ; 
+        flex-direction: column ;}
 
 #hero {margin: 0 auto; 
         text-align: center;
@@ -48,14 +64,26 @@ h1 {color:#ED625B;
     width: 80%;
     height: 200px; 
     margin: 0 auto; 
-    border: 1px dashed #ED625B 
+    border: 1px dashed #ED625B; 
+    position: relative; 
+    padding: 1rem
+    
 
 }
+
+#about-me{
+       container-type: inline-size; 
+}
+
 
 .paragraph-title{color:#ED625B; float: right}
 .paragraph-content {color:#ED625B; font-size: 12px  }
 .red-background-section{
         width: 100vw; 
-        height:30 rem; 
+        height:300px; 
         background-color: #ED625B;
 }
+.my-projects-title {
+        color:#ED625B ; 
+        -webkit-text-stroke: 0.5px  #F9DADB;
+  }
