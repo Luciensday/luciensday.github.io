@@ -15,7 +15,7 @@ nav > ul > li > a {text-decoration: none;
                     -webkit-text-stroke: 0.5px  #ED625B}
 nav > ul > li {list-style: none ; 
                 font-size: 0.7rem; 
-                font-family: Chonburi&family, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+                font-family: 'Chonburi&family', 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif; 
                 width: 1rem ; 
                 text-align: center; 
                 
@@ -43,12 +43,19 @@ h1 {color:#ED625B;
        
         }
 
-#about-me { 
+#about-me, 
+#why-software {
     width: 80%;
     height: 200px; 
     margin: 0 auto; 
     border: 1px dashed #ED625B 
-    }
 
-#about-me h2 {color:#ED625B; float: right}
-#about-me p {color:#ED625B;  }
+}
+
+.paragraph-title{color:#ED625B; float: right}
+.paragraph-content {color:#ED625B; font-size: 12px  }
+.red-background-section{
+        width: 100vw; 
+        height:30 rem; 
+        background-color: #ED625B;
+}
