@@ -66,7 +66,7 @@ h1 {color:#ED625B;
 #about-me, 
 #why-software {
     width: 80%;
-    height: 200px; 
+  
     margin: 0 0 30px 0 ; 
     border: 1px dashed #ED625B; 
     padding: 1rem
@@ -75,8 +75,9 @@ h1 {color:#ED625B;
 }
 
 #about-me, #why-software{
-       container-type: inline-size; 
-       margin-bottom: 2rem 
+     
+       margin-bottom: 2rem; 
+       overflow-wrap: break-word; 
 
 }
 
@@ -85,10 +86,21 @@ h1 {color:#ED625B;
 .paragraph-content {color:#ED625B; font-size: 12px  }
 .red-background-section{
         width: 100vw; 
-        height:300px; 
+        display: flex; 
+        flex-direction: column ;
+        align-content: center;
+        justify-content: center;
         background-color: #ED625B;
 }
+
+#myproject{
+         padding: 0.8rem }
+
+
 .my-projects-title {
+    
         color:#ED625B ; 
         -webkit-text-stroke: 0.5px  #F9DADB;
+        text-align: center;
+        
   }
