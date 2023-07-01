@@ -106,12 +106,17 @@ h1 {color:#ED625B;
   }
 
   .project-cards{
-         height: 20rem;
+        height: 20%;  
         width: 20rem; 
-background-color: white ; }
+        background-color: white ;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center ;
+        }
 
 .proejct-image-container{
-       
+       width: 100%
 }
 
 .card-images{
