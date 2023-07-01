@@ -72,7 +72,7 @@ h1 {color:#ED625B;
 #about-me, 
 #why-software {
     width: 80%;
-  
+
     margin: 0 0 30px 0 ; 
     border: 1px dashed #ED625B; 
     padding: 1rem
@@ -87,8 +87,19 @@ h1 {color:#ED625B;
 
 }
 
+#why-title-div{
+width:50%
 
-.paragraph-title{color:#ED625B; float: right}
+
+}
+
+.paragraph-title{
+        color:#ED625B; 
+        float: right; 
+        font-family: Asset; 
+        font-size: 1.2rem 
+
+}
 .paragraph-content {
         color:#ED625B; 
         font-size: 12px; 
@@ -107,7 +118,7 @@ h1 {color:#ED625B;
 
 #myproject{
          padding: 0.8rem 0.8rem 
-        2rem  }
+        2rem 2rem }
 
 
 .my-projects-title {
@@ -115,12 +126,14 @@ h1 {color:#ED625B;
         color:#ED625B ; 
         -webkit-text-stroke: 0.5px  #F9DADB;
         text-align: center;
+        padding-bottom: 1.7rem; 
+
         
   }
 
   .project-cards{
-        height: 300px  ;  
-        width: 45%; 
+        
+        width: 40%; 
         background-color: #171616; 
         display: flex; 
         flex-direction: column; 
@@ -136,8 +149,8 @@ h1 {color:#ED625B;
 
 .proejct-image-container{
        width: 100%; 
-       height: 770%; 
-       overflow: hidden
+       height: 100%;  
+       overflow: hidden;
        
       
        
@@ -154,17 +167,19 @@ h1 {color:#ED625B;
 .proejct-card-tag{
       
        font-family: 'Exo 2', sans-serif; 
-       border: 1px solid #F9DADB; 
+       font-weight: 100; 
+       border: 2px solid #F9DADB; 
        padding: 4px; 
        border-radius:0.5rem; 
        color: #F9DADB; 
        text-align: left;
-       margin-bottom: 0 
+      margin: 2px; 
+      font-size: 0.8rem 
 }
 
 .project-card-title {
         font-family: 'Chonburi&family', 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif; 
-        font-size: 3rem; 
+        font-size:2.2rem; 
         color: #F9DADB; 
         line-height: 0;
         
@@ -179,12 +194,19 @@ h1 {color:#ED625B;
 }
 
 .text-in-card {
-      height: 80%; 
+      height: 30%; 
         padding: 0; 
         display: inline-flex;
         flex-direction: column; 
         font-family: 'Exo 2', sans-serif; 
-        padding: 0.5rem ; 
+        padding: 1rem ; 
+        padding-top: 1.2rem; 
         flex-wrap: wrap; 
       
+}
+
+.tag-container{
+        display: flex; 
+        flex-direction: row; 
+        justify-content: center;
 }
