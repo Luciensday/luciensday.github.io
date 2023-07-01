@@ -85,9 +85,11 @@ h1 {color:#ED625B;
 .paragraph-title{color:#ED625B; float: right}
 .paragraph-content {
         color:#ED625B; 
-        font-size: 13px; 
-        font-family: 'Exo 2', sans-serif; 
-        line-height: 17px; }
+        font-size: 12px; 
+        font-family: 'Exo 2', sans-serif;
+        font-weight:200; 
+        line-height:25px; }
+
 .red-background-section{
         width: 100vw; 
         display: flex; 
@@ -111,8 +113,8 @@ h1 {color:#ED625B;
   }
 
   .project-cards{
-        height: 20%;  
-        width: 20rem; 
+        height: 300px  ;  
+        width: 45%; 
         background-color: #171616; 
         display: flex; 
         flex-direction: column; 
@@ -128,13 +130,18 @@ h1 {color:#ED625B;
 
 .proejct-image-container{
        width: 100%; 
-       height: 30%; 
+       height: 770%; 
+       overflow: hidden
+       
+      
+       
        
 }
 
 .card-images{
         max-width:100%;
-max-height:100%;
+        object-fit: contain; 
+
 
 }
 
@@ -161,4 +168,8 @@ max-height:100%;
         font-size: 12px; 
         text-align: left; 
         color: #F9DADB; 
+}
+
+.text-in-card {
+        padding-top: 20px; 
 }
