@@ -83,7 +83,11 @@ h1 {color:#ED625B;
 
 
 .paragraph-title{color:#ED625B; float: right}
-.paragraph-content {color:#ED625B; font-size: 12px  }
+.paragraph-content {
+        color:#ED625B; 
+        font-size: 13px; 
+        font-family: 'Exo 2', sans-serif; 
+        line-height: 17px; }
 .red-background-section{
         width: 100vw; 
         display: flex; 
@@ -94,7 +98,8 @@ h1 {color:#ED625B;
 }
 
 #myproject{
-         padding: 0.8rem }
+         padding: 0.8rem 0.8rem 
+        2rem  }
 
 
 .my-projects-title {
@@ -108,18 +113,52 @@ h1 {color:#ED625B;
   .project-cards{
         height: 20%;  
         width: 20rem; 
-        background-color: white ;
+        background-color: #171616; 
         display: flex; 
         flex-direction: column; 
         align-items: center; 
         justify-content: center ;
+        border: 0.3rem  solid #F9DADB; 
+
+        padding: 0.23rem ; 
+       
         }
+.project-cards:hover {
+        background-color:#ED625B;  }
 
 .proejct-image-container{
-       width: 100%
+       width: 100%; 
+       height: 30%; 
+       
 }
 
 .card-images{
         max-width:100%;
 max-height:100%;
+
+}
+
+.proejct-card-tag{
+      
+       font-family: 'Exo 2', sans-serif; 
+       border: 1px solid #F9DADB; 
+       padding: 4px; 
+       border-radius:0.5rem; 
+       color: #F9DADB; 
+       text-align: left;
+}
+
+.project-card-title {
+        font-family: 'Chonburi&family', 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif; 
+        font-size: 2rem; 
+        text-align: left; 
+        color: #F9DADB; 
+}
+
+.card-description-text {
+
+        font-family: 'Exo 2', sans-serif; 
+        font-size: 12px; 
+        text-align: left; 
+        color: #F9DADB; 
 }
