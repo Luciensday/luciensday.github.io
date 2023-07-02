@@ -116,12 +116,12 @@ h1 {color:#ED625B;
         background-color: #ED625B;
 }
 
-#myproject{
+.projects-header{
          padding: 0.8rem 0.8rem 
         2rem 2rem }
 
 
-.my-projects-title {
+.projects-section-title {
     
         color:#ED625B ; 
         -webkit-text-stroke: 0.5px  #F9DADB;
