@@ -20,7 +20,7 @@ body {
 
 .headshot {
         float: left; 
-       shape-outside: circle50%; 
+       shape-outside: circle(50%); 
        margin: 2rem; 
 }
 
@@ -225,3 +225,14 @@ h1 {color:#ED625B;
         height: 100px; 
         width:100%; 
         background-color: #F9DADB; }
+
+.footer-frame {
+        border:  1px dashed #ED625B; 
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr ;
+        color:#ED625B; 
+        font-size: 12px; 
+        font-family: 'Exo 2', sans-serif;
+        font-weight:200; 
+        line-height:25px; 
+}
