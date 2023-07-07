@@ -1,0 +1,1 @@
+const playerTurnSpan = document.getElementById("playersturn");
