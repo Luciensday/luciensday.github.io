@@ -239,3 +239,16 @@ h1 {color:#ED625B;
 }
 
 a {text-decoration: none;}
+
+a:link {
+        color: #ED625B;
+  
+      
+      }
+a:visited {
+        color: #ED625B;
+      
+       
+      }
+
+
