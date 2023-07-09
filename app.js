@@ -4,6 +4,7 @@ consg webpagelocal - docoument.getElementByID("title")
 
 Class Button{
     color: ReadableByteStreamController; 
-    ResizeObserverSize; 25
-    
+    ResizeObserverSize; 25; 
+    gap: 4px 
+
 }
