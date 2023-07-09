@@ -6,5 +6,6 @@ Class Button{
     color: ReadableByteStreamController; 
     ResizeObserverSize; 25; 
     gap: 4px 
+    innerHeight: 2px 
 
 }
