@@ -7,6 +7,6 @@ Class Button{
     ResizeObserverSize; 25; 
     gap: 4px 
     innerHeight: 2px 
-    border: 1px solide 
+    border: 1px solid red 
 
 }
