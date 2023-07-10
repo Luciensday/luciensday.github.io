@@ -12,3 +12,10 @@ Class Button{
 
    cardArray.sort(() => 0.5 - Math.random())
 }
+
+
+const gridDisplay = document.querySelector("#grid")
+const resultDisplay = document.querySelector('#result')
+let cardsChosen = []
+let cardsChosenIds = []
+const cardsWon= []
