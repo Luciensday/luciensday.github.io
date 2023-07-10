@@ -7,6 +7,8 @@ Class Button{
     ResizeObserverSize; 25; 
     gap: 4px 
     innerHeight: 2px 
-    border: 1px solid red 
+    border: 1px solid red
+    
 
+   cardArray.sort(() => 0.5 - Math.random())
 }
