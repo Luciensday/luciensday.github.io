@@ -16,3 +16,4 @@ Class Button{
 
 cardsChosen = []
 var cardchosen = 30 
+if ( car ="")
