@@ -19,3 +19,6 @@ var cardchosen = 30
 if ( car ="") { 
     car >= 10
 }
+
+function click
+
