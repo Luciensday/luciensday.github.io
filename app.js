@@ -29,3 +29,9 @@ else if (cardsChosen[0] == cardsChosen[1]) {
     cards[optionTwoId].removeEventListener('click', flipCard)
     cardsWon.push(cardsChosen)
 
+} else {
+    cards[optionOneId].setAttribute('src', 'images/blank.png')
+    cards[optionTwoId].setAttribute('src', 'images/blank.png')
+    alert("sorry try again!")
+}
+
