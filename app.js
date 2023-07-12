@@ -136,3 +136,17 @@ else if (cardsChosen[0] == cardsChosen[1]) {
     alert("sorry try again!")
 }
 
+
+class Snake {
+    constructor(x, y) {
+      this.x = x;
+      this.y = y;
+      this.direction = "right";
+      this.radius = blocksize / 2; 
+      this.radians = 0.75
+      this.openRate = 0.13;
+      this.rotation = 0 
+     
+      this.scorePlayer1 = 0;
+      this.scorePlayer2 = 0;
+    }
