@@ -35,3 +35,17 @@ else if (cardsChosen[0] == cardsChosen[1]) {
     alert("sorry try again!")
 }
 
+
+
+function flipCard() {  
+  
+    const cardId = this.getAttribute('data-id')
+    cardsChosen.push(cardArray[cardId].name)
+    cardsChosenIds.push(cardId)
+   console.log (cardsChosen)
+   console.log(cardId)
+    this.setAttribute('src', cardArray[cardId].img)
+    if (cardsChosen.length === 2){
+        setTimeout(checkMatch, 500)
+    }
+}
