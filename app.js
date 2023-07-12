@@ -150,3 +150,20 @@ class Snake {
       this.scorePlayer1 = 0;
       this.scorePlayer2 = 0;
     }
+
+
+draw(ctx) {
+    ctx.save()
+    ctx.translate(this.x, this.y)
+    ctx.rotate(this.rotation)
+    ctx.translate(-this.x, -this.y)
+    this.updateMouth();
+   
+    ctx.fillStyle = "yellow";
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, this.radius, this.radians, Math.PI * 2 - 0.75);
+    ctx.lineTo(this.x, this.y);
+    ctx.fill();
+    ctx.closePath();
+    ctx.restore()
+  }
