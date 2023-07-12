@@ -167,3 +167,16 @@ draw(ctx) {
     ctx.closePath();
     ctx.restore()
   }
+
+
+
+  move(direction, steps) {
+    const moveAmount = steps * blocksize;
+
+    switch (direction) {
+      case "left":
+        this.x -= moveAmount;
+        while (this.x < 0) {
+          this.x += cols * blocksize;
+        }
+        break;
