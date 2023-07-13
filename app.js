@@ -214,3 +214,10 @@ const float= document.getElementById('float');
 float.addEventListener('click', function(){
     mandrake.setAnimation(113, 262); 
 })
+
+
+
+const hide= document.getElementById('hide'); 
+hide.addEventListener('click', function(){
+    mandrake.setAnimation(113, 262); 
+})
