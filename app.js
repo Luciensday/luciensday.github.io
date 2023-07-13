@@ -207,3 +207,10 @@ const wink= document.getElementById('wink');
 wink.addEventListener('click', function(){
     mandrake.setAnimation(76, 112); 
 })
+
+
+
+const float= document.getElementById('float'); 
+float.addEventListener('click', function(){
+    mandrake.setAnimation(113, 262); 
+})
