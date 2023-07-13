@@ -193,3 +193,10 @@ const all= document.getElementById('all');
 all.addEventListener('click', function(){
     mandrake.setAnimation(0, 355); 
 })
+
+
+const grow= document.getElementById('grow'); 
+grow.addEventListener('click', function(){
+    mandrake.setAnimation(0, 75); 
+})
+
