@@ -200,3 +200,10 @@ grow.addEventListener('click', function(){
     mandrake.setAnimation(0, 75); 
 })
 
+
+
+
+const wink= document.getElementById('wink'); 
+wink.addEventListener('click', function(){
+    mandrake.setAnimation(76, 112); 
+})
