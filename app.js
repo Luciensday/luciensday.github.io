@@ -186,3 +186,10 @@ draw(ctx) {
     const ctx = canvas.getContext('2d')
     canvas.width = 500; 
     canvas.height = 500
+
+
+
+const all= document.getElementById('all'); 
+all.addEventListener('click', function(){
+    mandrake.setAnimation(0, 355); 
+})
