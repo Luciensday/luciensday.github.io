@@ -29,7 +29,7 @@ nav > ul > li > a {text-decoration: none;
                    color: #F9DADB;
                     -webkit-text-stroke: 1.1px  #ED625B}
 nav > ul > li {list-style: none ; 
-                font-size:  1rem; 
+                font-size:  1.2rem; 
                 font-family: 'Chonburi&family', 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif; 
                 width: 5rem ; 
                 text-align: center; 
@@ -37,9 +37,7 @@ nav > ul > li {list-style: none ;
                 
               }
 
-nav > ul > li > a:hover {color: #ED625B; 
-                         -webkit-text-stroke: 1px  #ED625B
-                        }
+
 
 nav > ul {display: flex; 
         flex-direction: row;
