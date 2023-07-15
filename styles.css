@@ -1,5 +1,9 @@
 *{
         box-sizing: border-box;
+        margin: 0; 
+        padding: 0; 
+        scroll-behavior: smoooth;
+       
 }
 
 body {
@@ -14,6 +18,9 @@ body {
         display: flex; 
         flex-direction: row;
         justify-content: space-between;
+        position:sticky; 
+        top:0
+        z-index: 999; 
 
 }
 
