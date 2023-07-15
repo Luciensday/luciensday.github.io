@@ -84,6 +84,7 @@ body {
         .navbar-menu {
                 display: grid; 
                 grid-template-columns: auto;
+                
                 margin:0; 
                 width: 100%; 
                 position: absolute; 
@@ -107,7 +108,53 @@ body {
         #navbar-logo {
                 padding-left: 25px; 
         }
-}
+
+        .navbar-toggle .bar{
+                width: 25px; 
+                height: 3px; 
+                margin: 5px auto; 
+                transition: all 0.3s ease-in-out; 
+                background: #ED625B; 
+        }
+
+
+        .navbar-item {
+                width: 100%
+        }
+
+        .navbar-links {
+                text-align: center; 
+                padding: 2rem; 
+                width: 100%; 
+                display: table; 
+        }
+
+        #mobile-menu {
+                position: absolute; 
+                top: 20%; 
+                right: 5%; 
+                transform: translate(5%, 20%); 
+        }
+
+        .navbar-toggle .bar {
+                display: block; 
+                cursor: pointer; 
+        }
+
+        #mobile-menu.is-active .bar:nth-child(2) {
+                opacity: 0; 
+        }
+        #mobile-menu.is-active .bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg)
+        }  
+        
+        #mobile-menu.is-active .bar:nth-child(3) {
+                transform: translateY(8px) rotate(-45deg)
+        }  
+
+        }
+
+
 
 
 .navbar-item {
