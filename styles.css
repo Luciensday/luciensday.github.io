@@ -61,17 +61,58 @@ body {
                    display: flex; 
                    justify-content: center; 
                    align-items: center;
+                   text-align: center; 
+
                    width: 125px; 
                    text-decoration: none; 
                    height: 100%; 
+                   transition: all 0.3s ease; 
 
                    }
+
+@media screen and (max-width: 960px) {
+        .navbar-container {
+                display: flex; 
+                justify-content: space-between; 
+                height: 80px; 
+                z-index: 1; 
+                width: 100%; 
+                max-width: 1300px; 
+                padding: 0; 
+        }
+
+        .navbar-menu {
+                display: grid; 
+                grid-template-columns: auto;
+                margin:0; 
+                width: 100%; 
+                position: absolute; 
+                /* top: -1000px;  */
+                opacity: 1; 
+                transition: all 0.5s ease; 
+                z-index: -1; 
+        }
+
+        .navbar-menu.active {
+                background: blue; 
+                top: 100%; 
+                opacity: 1; 
+                transition: all 0.5s ease; 
+                z-index: 99;
+                height: 60vh; 
+                font-size: 1.6rem;   
+
+        }
+
+        #navbar-logo {
+                padding-left: 25px; 
+        }
+}
+
+
 .navbar-item {
                height: 80px; 
-                font-family: 'Chonburi&family', 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif; 
-              
-             
-               
+                font-family: 'Chonburi&family', 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;   
                                
               }
 
@@ -86,6 +127,7 @@ body {
 .navbar-links:hover {text-decoration: none; 
                 color:  #F9DADB;
                 background-color: #ED625B; 
+                transition: all 0.3s ease; 
                 
              
                 }
@@ -140,11 +182,7 @@ h1 {color:#ED625B;
 
 }
 
-#why-title-div{
 
-
-
-}
 
 .paragraph-title{
         color:#ED625B; 
