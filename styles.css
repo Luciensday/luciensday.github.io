@@ -82,8 +82,9 @@ body {
         }
 
         .navbar-menu {
-                display: grid; 
-                grid-template-columns: auto;
+             
+                display: flex; 
+                flex-direction: column; 
                 
                 margin:0; 
                 width: 100%; 
@@ -92,6 +93,7 @@ body {
                 opacity: 1; 
                 transition: all 0.5s ease; 
                 z-index: -1; 
+                
         }
 
         .navbar-menu.active {
@@ -189,21 +191,34 @@ nav > ul {display: flex;
       
         }
 
-
+/* 
 #all-content-wrapper{
         
         display: flex ; 
         flex-direction: column;
         align-items: center;
         
-}
+} */
         
-
-#hero {margin: 0 auto; 
-        text-align: center;
-        width: 400px ; 
-         
-         padding-top:4rem; }
+/* hero  */
+.hero {
+        background-color : blue; 
+        /* text-align: center; */
+        /* width: 400px ;  */
+         padding: 100px 0 
+         /* padding-top:4rem; */
+         }
+.hero-container{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+        max-width: 551px; 
+        margin: 0 auto; 
+        height: 90%; 
+        text-align: center; 
+        padding: 30px; 
+}
 
 h1 {color:#ED625B; 
        font-family: Asset; 
