@@ -50,7 +50,7 @@ body {
 
 
 .navbar-links {text-decoration: none; 
-                   color: #F9DADB;
+                   color: #ED625B;
                    display: flex; 
                    justify-content: center; 
                    align-items: center;
@@ -178,11 +178,6 @@ body {
 
 
 
-nav > ul {display: flex; 
-        flex-direction: row;
-        justify-content: flex-end;
-      
-        }
 
 
         
@@ -202,7 +197,7 @@ nav > ul {display: flex;
         padding: 30px; 
 }
 
-h1 {color:#ED625B; 
+#hero-text {color:#ED625B; 
        font-family: Asset; 
        font-size: 3rem;
        
@@ -214,11 +209,18 @@ h1 {color:#ED625B;
 
 /* About me and why software section  */
 
+.about-me-and-why-container {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+}
+
 #about-me, 
 #why-software {
 margin: 2rem; 
 border: 1px dashed #ED625B; 
 padding: 1rem; 
+max-width: 1250px;
 }
 
 
@@ -249,7 +251,7 @@ padding: 1rem;
         float: right; 
         shape-outside: circle(50%); 
         margin: 2rem; 
-        height: 120px; 
+        height: 120px 
         }
 
 .typewriter {
@@ -262,6 +264,8 @@ padding: 1rem;
 
 /* project section  */
 
+
+
 .red-background-section{
         width: 100vw; 
         display: flex; 
@@ -272,7 +276,7 @@ padding: 1rem;
 }
 
 .projects-header{
-         padding: 0.8rem 0.8rem 
+        padding: 0.8rem 0.8rem 
         2rem 2rem }
 
 
@@ -282,8 +286,8 @@ padding: 1rem;
         -webkit-text-stroke: 0.5px  #F9DADB;
         text-align: center;
         padding-bottom: 1.7rem; 
-
-        
+        font-family: Asset; 
+        font-size: 3rem;
   }
 
   .project-cards{
@@ -372,9 +376,17 @@ padding: 1rem;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
 
-      
-
 }
+
+
+@media screen and (max-width: 500px) { 
+        .projects-section-title {
+                font-size: 2rem;
+          }
+        .paragraph-title{
+             
+                font-size: 1rem; 
+        }
 
 .seperate-line {        
         height: 100px; 
