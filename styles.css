@@ -14,6 +14,8 @@ body {
 
 }
 
+/* navbar section */
+
 .navbar {
         background:#F9DADB;
         height: 80px; 
@@ -185,7 +187,7 @@ body {
 
 
         
-/* hero  */
+/* hero section */
 .hero {
       padding: 100px 0 
        }
@@ -210,6 +212,7 @@ body {
         color:#F9DADB;
         -webkit-text-stroke: 0.5px  #ED625B ; 
               }
+
 
 /* About me and why software section  */
 
@@ -285,6 +288,10 @@ max-width: 1250px;
         display: flex; 
         justify-content: space-around; 
         align-items: center;
+        flex-wrap: wrap; 
+        max-width: 1221px; 
+        margin-left: auto;
+        margin-right: auto;
         
 
 }
@@ -319,6 +326,7 @@ max-width: 1250px;
         border: 0.3rem  solid #F9DADB; 
         padding: 0.23rem ; 
         max-width: 333px;  
+        margin-top: 2rem;
 
        
         }
@@ -397,21 +405,24 @@ max-width: 1250px;
              
                 font-size: 1rem; 
         }
+}
 
 
 
 
-/* 
- footer section         */
+/* footer section         */
 .seperate-line {        
-        height: 100px; 
+        height: 20px; 
         width:100%; 
-        background-color: #F9DADB; }
+        background-color: #F9DADB;  }
 
 .footer-frame {
         border:  1px dashed #ED625B; 
         display: grid; 
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center; 
+        margin: 2rem; 
+        padding: 1rem; 
         color:#ED625B; 
         font-size: 12px; 
         font-family: 'Exo 2', sans-serif;
