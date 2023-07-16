@@ -202,7 +202,7 @@ nav > ul {display: flex;
         
 /* hero  */
 .hero {
-        background-color : blue; 
+        
         /* text-align: center; */
         /* width: 400px ;  */
          padding: 100px 0 
@@ -225,11 +225,10 @@ h1 {color:#ED625B;
        font-size: 3rem;
        
         }
-#hero-text:hover span{
-        color: white; 
-        
-}
-
+.hovered {
+        color:#F9DADB;
+        -webkit-text-stroke: 0.5px  #ED625B ; 
+              }
 
 
 #about-me, 

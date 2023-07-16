@@ -15,4 +15,16 @@ menu.addEventListener('click', mobileMenu);
 const text = document.getElementById('hero-text');
 const letters = text.textContent.split('');
 
-text.innerHTML = letters.map(letter => `<span>${letter}</span>`).join('');
+text.innerHTML = letters
+  .map(letter => `<span>${letter}</span>`)
+  .join('');
+
+const spans = text.getElementsByTagName('span');
+for (let i = 0; i < spans.length; i++) {
+  spans[i].addEventListener('mouseover', function() {
+    this.classList.add('hovered');
+  });
+  spans[i].addEventListener('mouseout', function() {
+    this.classList.remove('hovered');
+  });
+}
