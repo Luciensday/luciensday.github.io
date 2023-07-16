@@ -6,7 +6,8 @@
         scroll-behavior: smooth;
        
 }
-
+html {
+        scroll-padding-top:80px; }
 body {
         background-color: #F9DADB;
         margin: 0; 
@@ -189,7 +190,9 @@ body {
         
 /* hero section */
 .hero {
-      padding: 100px 0 
+
+      padding: 100px 0; 
+      padding-top: 160px; 
        }
 .hero-container{
         display: flex; 
@@ -217,6 +220,7 @@ body {
 /* About me and why software section  */
 
 .about-me-and-why-container {
+        
         display: flex; 
         flex-direction: column;
         justify-content: center;
@@ -226,7 +230,8 @@ body {
 #why-software {
 margin: 2rem; 
 border: 1px dashed #ED625B; 
-padding: 1rem; 
+/* padding: 1rem;  */
+padding-top:60px;         
 max-width: 1250px;
 }
 
@@ -410,7 +415,7 @@ max-width: 1250px;
 
 
 
-/* footer section         */
+/* footer section  */
 .seperate-line {        
         height: 20px; 
         width:100%; 
