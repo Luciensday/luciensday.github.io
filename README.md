@@ -1,6 +1,7 @@
 # Portfolio Website 
 
 **Intro**
+
 This is my portfolio website in which you will learn a little bit of me and why i wish to become a Software Developer. In the meantime my projects and learned/followed tutorial are also showcase in the site. 
 
 **Little twists in Javascript**
