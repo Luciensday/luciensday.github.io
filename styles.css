@@ -95,7 +95,7 @@ body {
         }
 
         .navbar-menu.active {
-                background: blue; 
+                background: #F9DADB; 
                 top: 100%; 
                 opacity: 1; 
                 transition: all 0.5s ease; 
