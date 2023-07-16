@@ -299,7 +299,7 @@ max-width: 1250px;
 
 .projects-header{
         padding: 0.8rem 0.8rem 
-        2rem 2rem }
+        1.5rem 1.5rem }
 
 
 .projects-section-title {
@@ -369,12 +369,8 @@ max-width: 1250px;
 }
 
 .text-in-card {
-      height: 70%; 
-      
+      height: 150px; 
         padding: 0; 
-        /* display:flex; 
-        flex-direction: row 
-        justify-content: space-between */
         font-family: 'Exo 2', sans-serif; 
         padding: 1rem ; 
         padding-top: 1.2rem; 
@@ -385,20 +381,25 @@ max-width: 1250px;
 .tag-container{
         display: flex; 
         flex-direction: row; 
-        justify-content: center;
+        justify-content: left;
 }
 
 
 
 @media screen and (max-width: 500px) { 
         .projects-section-title {
-                font-size: 2rem;
+                font-size: 1.8rem;
           }
         .paragraph-title{
              
                 font-size: 1rem; 
         }
 
+
+
+
+/* 
+ footer section         */
 .seperate-line {        
         height: 100px; 
         width:100%; 
