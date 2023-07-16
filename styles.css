@@ -1,13 +1,17 @@
 *{
         box-sizing: border-box;
-        margin: 0; 
+       
+
         padding: 0; 
         scroll-behavior: smooth;
        
 }
 
 body {
-        background-color: #F9DADB ;
+        background-color: #F9DADB;
+        margin: 0; 
+        padding: 0; 
+
 }
 
 .navbar {
@@ -268,11 +272,29 @@ max-width: 1250px;
 
 .red-background-section{
         width: 100vw; 
+        margin: 0; 
+        padding: 0; 
         display: flex; 
         flex-direction: column ;
         align-content: center;
         justify-content: center;
         background-color: #ED625B;
+}
+
+.project-wrapper {
+        display: flex; 
+        justify-content: space-around; 
+        align-items: center;
+        
+
+}
+
+@media screen and (max-width: 784px) {
+        .project-wrapper {
+        display: flex; 
+        flex-direction: column; 
+      
+        }
 }
 
 .projects-header{
@@ -291,17 +313,13 @@ max-width: 1250px;
   }
 
   .project-cards{
-        
-        width: 35%; 
         background-color: #171616; 
         display: flex; 
         flex-direction: column; 
-        
-        
         border: 0.3rem  solid #F9DADB; 
-
         padding: 0.23rem ; 
-        min-width: 333px;  
+        max-width: 333px;  
+
        
         }
 .project-cards:hover {
@@ -309,13 +327,9 @@ max-width: 1250px;
 
 .proejct-image-container{
        width: 100%; 
-       height: 100%;  
+       height:  300px; 
        overflow: hidden;
-       
-       
-      
-       
-       
+        
 }
 
 .card-images{
@@ -355,10 +369,12 @@ max-width: 1250px;
 }
 
 .text-in-card {
-      height: 30%; 
+      height: 70%; 
+      
         padding: 0; 
-        display: inline-flex;
-        flex-direction: column; 
+        /* display:flex; 
+        flex-direction: row 
+        justify-content: space-between */
         font-family: 'Exo 2', sans-serif; 
         padding: 1rem ; 
         padding-top: 1.2rem; 
@@ -371,12 +387,7 @@ max-width: 1250px;
         flex-direction: row; 
         justify-content: center;
 }
-.project-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
 
-}
 
 
 @media screen and (max-width: 500px) { 
