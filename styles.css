@@ -252,6 +252,13 @@ padding: 1rem;
         height: 120px; 
         }
 
+.typewriter {
+        float: left; 
+        shape-outside: circle(50%); 
+        margin: 2rem; 
+        height: 120px; 
+                }
+
 
 /* project section  */
 
