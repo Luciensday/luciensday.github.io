@@ -10,3 +10,9 @@ const mobileMenu = () => {
 }
 
 menu.addEventListener('click', mobileMenu); 
+
+// letters color change function 
+const text = document.getElementById('hero-text');
+const letters = text.textContent.split('');
+
+text.innerHTML = letters.map(letter => `<span>${letter}</span>`).join('');

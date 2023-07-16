@@ -225,6 +225,12 @@ h1 {color:#ED625B;
        font-size: 3rem;
        
         }
+#hero-text:hover span{
+        color: white; 
+        
+}
+
+
 
 #about-me, 
 #why-software {
